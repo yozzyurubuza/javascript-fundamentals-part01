@@ -48,16 +48,16 @@ console.log("Is Mark's BMI higher than John?: " + markHigherBMI);
 //Jonas Schedtmann Implementation
 //For Test Data 2, just change the value in the const variables
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-markHigherBMI = BMIMark > BMIJohn;
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark, BMIJohn, markHigherBMI);
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
 
 
