@@ -20,7 +20,7 @@ const johnWeight_1 = 92;
 const johnHeight_1 = 1.95;
 
 const getMarkBMI_1 = markWeight_1 / markHeight_1 ** 2
-const getJohnBMI_1 = johnWeight_1 / johnWeight_1 ** 2
+const getJohnBMI_1 = johnWeight_1 / johnHeight_1 ** 2
 
 let markHigherBMI = getMarkBMI_1 > getJohnBMI_1;
 
@@ -45,7 +45,7 @@ console.log("John's BMI: " + getJohnBMI_2 + "kg/m^2");
 console.log("Is Mark's BMI higher than John?: " + markHigherBMI);
 
 
-//Jonas Schedtmann Implementation
+//Jonas Schmedtmann Implementation
 //For Test Data 2, just change the value in the const variables
 
 // const massMark = 78;
