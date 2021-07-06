@@ -275,7 +275,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive...');
 }
-*/
+
 
 //The Switch Statement
 
@@ -320,10 +320,25 @@ if (day === "monday") {
     console.log('Not a valid day!');
 }
 
+*/
 
+//Statements and Expressions
 
+//Expression = produce a value / word
+//Example:
+// 3 + 4
+// 1991
+// true && false && !false
 
+//Statement = A sequence of actions
+//Example: 
 
+// if (23 > 10){
+//     const str = '23 is bigger';
+// }
+
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}.`)
 
 
 
