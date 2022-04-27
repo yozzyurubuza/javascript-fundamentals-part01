@@ -13,7 +13,7 @@ console.log(firstName);
 
 //let jonas&matilda = 'JM'; // Some special characters cannot be used.
 //let new = 27; //Reserved javascript keyword cannot be used
-let $function = 27;
+let $function = 27; // 27
 
 let Person = "jonas"; //Avoid using uppercase in the start of variable names
 
