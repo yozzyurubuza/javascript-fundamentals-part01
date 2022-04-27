@@ -10,6 +10,7 @@ console.log(continent);
 console.log(population);
 
 console.log("////////////////////");
+
 //Lecture: Data Types
 const isIsland = false;
 let language;
@@ -21,11 +22,13 @@ console.log(
   typeof language
 );
 console.log("////////////////////");
+
 //Lecture: let, const, and var
 language = "Tagalog";
 //isIsland = true; - error
 
 console.log("////////////////////");
+
 //Lecture: Basic Operators
 const splitCountry = population / 2;
 console.log(population + 1);
@@ -44,6 +47,7 @@ const description =
 console.log(description);
 
 console.log("////////////////////");
+
 //Strings and Template Literals
 const description2 = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description2);
@@ -72,6 +76,7 @@ if (population > averagePopulation) {
 // population = 13
 // population = 130
 console.log("////////////////////");
+
 //Type Conversion and Coercion
 
 /*
@@ -86,6 +91,7 @@ console.log("////////////////////");
 
 console.log(5 + 6 + "4" + 9 - 4 - 2);
 console.log("////////////////////");
+
 //Equality Operators: == vs ===
 
 // const numNeighbours = prompt(
@@ -106,6 +112,7 @@ console.log("////////////////////");
 
 //When using prompt, input is a string and == coerced it into a number, while using strict will not coerce the string 1 into number, so it goes to the else block. Placing prompt() inside Number() converts the input into a number
 console.log("////////////////////");
+
 //Logical Operators
 
 // language = "english";
@@ -143,6 +150,7 @@ switch (language) {
 }
 
 console.log("////////////////////");
+
 //The Conditional (Ternary) Operator
 
 // population = 130;
