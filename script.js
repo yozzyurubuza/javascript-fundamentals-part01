@@ -1,34 +1,6 @@
 /*
 
 
-//Strings and Template Literals
-
-const firstName = 'Jonas';
-const job = 'teacher';
-const birthYear = 1991;
-const year = 2037;
-
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
-
-console.log(jonas);
-
-//Template Literal - Assemble multiple pieces into one final string
-
-const jonasNew = `I'm ${firstName}, ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
-
-console.log(`Just a regular string...`);
-
-console.log('String with \n\
-multiple \n\
-lines');
-
-console.log(`String
-multiple
-lines`);
-
-
-
 //Taking Decisions: If / Else Statements
 
 const age = 15;
