@@ -1,29 +1,6 @@
 /*
 
 
-//Data Types
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
-
-//typeof displays the data type
-console.log(typeof true);
-console.log(typeof javascriptIsFun);
-console.log(typeof 23);
-console.log(typeof 'Jonas');
-
-//Dynamic Typing - Makes the changes in data type easily by changing the value of the variable.
-
-javascriptIsFun = 'YES!';
-console.log(typeof javascriptIsFun);
-
-let year;
-console.log(year);
-console.log(typeof year);
-
-year = 1991;
-console.log(typeof year);
-
-console.log(typeof null);
 
 //let, const, and var use cases
 //let - use to mutate the value for later use
