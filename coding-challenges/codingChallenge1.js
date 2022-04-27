@@ -1,4 +1,4 @@
-//Coding Challenge #1
+//Coding Challenge #1 - After lectures 01-05
 
 // Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula:
 // BMI = mass / height ** 2 = mass / (height * height) (mass in kg
@@ -19,8 +19,8 @@ const markHeight_1 = 1.69;
 const johnWeight_1 = 92;
 const johnHeight_1 = 1.95;
 
-const getMarkBMI_1 = markWeight_1 / markHeight_1 ** 2
-const getJohnBMI_1 = johnWeight_1 / johnHeight_1 ** 2
+const getMarkBMI_1 = markWeight_1 / markHeight_1 ** 2;
+const getJohnBMI_1 = johnWeight_1 / johnHeight_1 ** 2;
 
 let markHigherBMI = getMarkBMI_1 > getJohnBMI_1;
 
@@ -35,15 +35,14 @@ const markHeight_2 = 1.88;
 const johnWeight_2 = 85;
 const johnHeight_2 = 1.76;
 
-const getMarkBMI_2 = markWeight_2 / markHeight_2 ** 2
-const getJohnBMI_2 = johnWeight_2 / johnHeight_2 ** 2
+const getMarkBMI_2 = markWeight_2 / markHeight_2 ** 2;
+const getJohnBMI_2 = johnWeight_2 / johnHeight_2 ** 2;
 
 markHigherBMI = getMarkBMI_2 > getJohnBMI_2;
 
 console.log("Mark's BMI: " + getMarkBMI_2 + "kg/m^2");
 console.log("John's BMI: " + getJohnBMI_2 + "kg/m^2");
 console.log("Is Mark's BMI higher than John?: " + markHigherBMI);
-
 
 //Jonas Schmedtmann Implementation
 //For Test Data 2, just change the value in the const variables
@@ -58,7 +57,3 @@ console.log("Is Mark's BMI higher than John?: " + markHigherBMI);
 // const markHigherBMI = BMIMark > BMIJohn;
 
 // console.log(BMIMark, BMIJohn, markHigherBMI);
-
-
-
-

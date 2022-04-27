@@ -1,8 +1,6 @@
 /*
 
 
-
-
 //Strings and Template Literals
 
 const firstName = 'Jonas';
