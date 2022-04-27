@@ -1,4 +1,4 @@
-//Coding Challenge #2
+//Coding Challenge #2 - After lectures 06-07
 
 // Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
 // Your tasks:
