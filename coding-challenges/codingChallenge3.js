@@ -1,4 +1,4 @@
-//Coding Challenge #3
+//Coding Challenge #3 - After lectures 08-11
 
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
 
@@ -14,9 +14,8 @@
 // § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 // § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
-
-let aveTeamDolphinScore = (96 + 108 + 89) / 3
-let aveTeamKoalasScore = (88 + 91 + 110) / 3
+let aveTeamDolphinScore = (96 + 108 + 89) / 3;
+let aveTeamKoalasScore = (88 + 91 + 110) / 3;
 
 let getWinnerScore = 0;
 const reachMinimumScore = 100;
@@ -27,46 +26,52 @@ console.log(`Team Koalas Average Score: ${aveTeamKoalasScore}`);
 //For Task 1 and 2
 
 if (aveTeamDolphinScore > aveTeamKoalasScore) {
-    console.log("Team Dolphin wins and gets the trophy!");
+  console.log("Team Dolphin wins and gets the trophy!");
 } else if (aveTeamDolphinScore < aveTeamKoalasScore) {
-    console.log("Team Koala wins and gets the trophy!");
+  console.log("Team Koala wins and gets the trophy!");
 } else if (aveTeamDolphinScore === aveTeamKoalasScore) {
-    console.log("It's a draw!");
+  console.log("It's a draw!");
 }
 
 console.log("//////////////////////////");
 // For Bonus Questions
 
-aveTeamDolphinScore = (97 + 112 + 101) / 3
-aveTeamKoalasScore = (109 + 95 + 123) / 3
+aveTeamDolphinScore = (97 + 112 + 101) / 3;
+aveTeamKoalasScore = (109 + 95 + 123) / 3;
 
 console.log("Team Dolphins Average Score: " + aveTeamDolphinScore);
 console.log(`Team Koalas Average Score: ${aveTeamKoalasScore}`);
 
 if (aveTeamDolphinScore > aveTeamKoalasScore) {
-    getWinnerScore = aveTeamDolphinScore
-    if (getWinnerScore >= reachMinimumScore) {
-        console.log("Team Dolphins win and gets the trophy!");
-    } else {
-        console.log("Team Dolphin got a higher score, but it did not reach the Minimum Score. No team wins the trophy!")
-    }
+  getWinnerScore = aveTeamDolphinScore;
+  if (getWinnerScore >= reachMinimumScore) {
+    console.log("Team Dolphins win and gets the trophy!");
+  } else {
+    console.log(
+      "Team Dolphin got a higher score, but it did not reach the Minimum Score. No team wins the trophy!"
+    );
+  }
 } else if (aveTeamDolphinScore < aveTeamKoalasScore) {
-    getWinnerScore = aveTeamKoalasScore
-    if (getWinnerScore >= reachMinimumScore) {
-        console.log("Team Koalas win and gets the trophy!");
-    } else {
-        console.log("Team Koalas got a higher score, but it did not reach the Minimum Score. No team wins the trophy!")
-    }
+  getWinnerScore = aveTeamKoalasScore;
+  if (getWinnerScore >= reachMinimumScore) {
+    console.log("Team Koalas win and gets the trophy!");
+  } else {
+    console.log(
+      "Team Koalas got a higher score, but it did not reach the Minimum Score. No team wins the trophy!"
+    );
+  }
 } else if (aveTeamDolphinScore === aveTeamKoalasScore) {
-    getWinnerScore = aveTeamDolphinScore;
-    if (getWinnerScore >= reachMinimumScore) {
-        console.log("It's a draw!");
-    } else {
-        console.log("Both teams got the same score, but did not reach the minimum score. No team wins the trophy!")
-    }
+  getWinnerScore = aveTeamDolphinScore;
+  if (getWinnerScore >= reachMinimumScore) {
+    console.log("It's a draw!");
+  } else {
+    console.log(
+      "Both teams got the same score, but did not reach the minimum score. No team wins the trophy!"
+    );
+  }
 }
 
-console.log("////////////////////////////")
+console.log("////////////////////////////");
 
 //Jonas Schmedtmann Implementation
 
@@ -89,15 +94,15 @@ const scoreKoalas = (109 + 95 + 50) / 3;
 console.log(scoreDolphins, scoreKoalas);
 
 if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-    console.log('Dolphins win the trophy');
+  console.log("Dolphins win the trophy");
 } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-    console.log('Koalas win the trophy');
-} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-    console.log('Both win the trophy!');
+  console.log("Koalas win the trophy");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Both win the trophy!");
 } else {
-    console.log('No one wins the trophy');
+  console.log("No one wins the trophy");
 }
-
-
-
-
