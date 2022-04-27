@@ -1,31 +1,4 @@
 /*
-let js = 'amazing';
-console.log(40 + 8 + 23 - 10);
-
-console.log("Jonas");
-console.log(23);
-
-let firstName = "Matilda";
-let firstNamePerson //Camel Case - Javascript naming standard
-
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
-
-//let jonas&matilda = 'JM'; // Some special characters cannot be used.
-//let new = 27; //Reserved javascript keyword cannot be used
-let $function = 27;
-
-let Person = 'jonas' //Avoid using uppercase in the start of variable names
-
-//write variable names descriptively
-let myFirstJob = 'Programmer';
-let myCurrentJob = 'Teacher';
-
-let job1 = 'programmer';
-let job2 = 'teacher';
-
-console.log(myFirstJob);
 
 
 //Data Types
@@ -348,53 +321,15 @@ console.log(`I'm ${2037 - 1991} years old ${me}.`)
 const age = 23;
 // age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
 
-const drink = age >= 18 ? 'wine' : 'water';
+const drink = age >= 18 ? "wine" : "water";
 console.log(drink);
 
 let drink2;
 if (age >= 18) {
-    drink2 = 'wine';
+  drink2 = "wine";
 } else {
-    drink2 = 'water';
+  drink2 = "water";
 }
 console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
