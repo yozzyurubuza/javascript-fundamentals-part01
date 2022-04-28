@@ -4,35 +4,35 @@ This are the topics of the code included in these repository.
 
 ## Repository Coverage:
 
-###`01 - Introduction to JavaScript - Hello World`
+### `01 - Introduction to JavaScript - Hello World`
 
-###`02 - Data Types`
+### `02 - Data Types`
 
-###`03 - Let, Const, and Var`
+### `03 - Let, Const, and Var`
 
-###`04 - Basic Operators`
+### `04 - Basic Operators`
 
-###`05 - Operator Precedence`
+### `05 - Operator Precedence`
 
-###`06 - Strings and Template Literals`
+### `06 - Strings and Template Literals`
 
-###`07 - Taking Decisions: if / else Statements`
+### `07 - Taking Decisions: if / else Statements`
 
-###`08 - Type Conversion and Coercion`
+### `08 - Type Conversion and Coercion`
 
-###`09 - Truthy and Falsy Values`
+### `09 - Truthy and Falsy Values`
 
-###`10 - Equality Operators: == vs ===`
+### `10 - Equality Operators: == vs ===`
 
-###`11 - Boolean Logic`
+### `11 - Boolean Logic`
 
-###`12 - Logical Operators`
+### `12 - Logical Operators`
 
-###`13 - Statements and Expressions`
+### `13 - Statements and Expressions`
 
-###`14 - The Conditional (Ternary) Operator`
+### `14 - The Conditional (Ternary) Operator`
 
-###`15 - JavaScript Releases: ES5, ES6+, and ESNext`
+### `15 - JavaScript Releases: ES5, ES6+, and ESNext`
 
 ## How To use:
 
