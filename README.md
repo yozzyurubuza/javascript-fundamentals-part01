@@ -38,11 +38,9 @@ This are the topics of the code included in these repository.
 
 1. Download Project Folder (Code -> Download ZIP)
 
-2.1 Install [live server] https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
+2. Install [live server] https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/ OR...
 
-OR
-
-2.2 Double-click the HTML file inside.
+2. Double-click the HTML file inside.
 
 3. Edit the <script src=""> part below and put in the file name of the JS file of the lecture.
 
