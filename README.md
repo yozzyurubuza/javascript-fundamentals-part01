@@ -42,7 +42,7 @@ This are the topics of the code included in these repository.
 
 2. Double-click the HTML file inside.
 
-3. Edit the <script src=""> part below and put in the file name of the JS file of the lecture.
+3. Edit the **<script src="">** part below and put in the file name of the JS file of the lecture.
 
 4. If live server is installed, the page will automatically reload, if not, hit F5 on the HTML page.
 
