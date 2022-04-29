@@ -1,6 +1,6 @@
 # JavaScript Fundamentals - Part 01
 
-This are the topics of the code included in these repository.
+These are the topics of the code included in this repository.
 
 ## Repository Coverage:
 
@@ -34,13 +34,11 @@ This are the topics of the code included in these repository.
 
 ### `15 - JavaScript Releases: ES5, ES6+, and ESNext`
 
-## How To use:
+## How to use:
 
 1. Download Project Folder (Code -> Download ZIP)
 
-2. Install [Live Server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) or...
-
-2. Double-click the HTML file inside.
+2. Install [Live Server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) **OR**  just double-click the HTML file inside.
 
 3. Edit the **<script src="">** part below and put in the file name of the JS file of the lecture.
 
