@@ -38,9 +38,7 @@ This are the topics of the code included in these repository.
 
 1. Download Project Folder (Code -> Download ZIP)
 
-2. Install [live server] (https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/)
-
-#### OR...
+2. Install [Live Server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) or...
 
 2. Double-click the HTML file inside.
 
